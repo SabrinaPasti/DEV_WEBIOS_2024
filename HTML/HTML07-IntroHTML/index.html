@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 07</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<main>
+    <body>
+        <!-- Formulários para jogar rpg de patito -->
+        <header>
+            <img src="https://cdn.pixabay.com/photo/2019/04/14/20/05/duck-meet-4127713_1280.jpg" alt="patinhos">
+        </header>
+        <div class="formulario">
+            <form action="">
+                <h2>🦆 RPG de patitos 🦆</h2>
+                <div class="label-name">
+                    <label for="name">Qual é o seu nome?</label>
+                    <input type="text" placeholder="Digite aqui">
+                </div>  
+                <!-- Nível de conhecimento sobre patos iniciante/intermediário/patauro -->
+                <div class="label-radio">
+                    <input type="radio" id="iniciante" name="nivel">
+                    <label for="iniciante">Iniciante</label>
+                    <input type="radio" id="intermediario" name="nivel">
+                    <label for="intermediario">Intermediário</label>
+                    <input type="radio" id="mestre" name="nivel">
+                    <label for="mestre">Patauro</label>
+                </div>
+                <div class="label-checkbox">
+                    <h4>Com quantos patonautas você consegue jogar?</h4>
+                    <input type="checkbox">
+                    <label for="">1 Patodavida</label> <br><br>
+
+                    <input type="checkbox">
+                    <label for="">Até 4 Patinhos</label> <br><br>
+                    
+                    <input type="checkbox">
+                    <label for="">8 quacks</label>
+                </div>
+
+                <!-- Selecionar se prefere jogar online ou offline -->
+                <div class="label-range">
+                    <h4>Selecione o modo de jogo</h4>
+                    <div><span>Online</span> <input type="range"><span>Offline</span></div>
+                </div>
+
+                <div class="label-select">
+                    <label for="">Selecione a sua Pato Skin</label>
+                    <select name="" id="" aria-placeholder="">
+                        <option value="">Pato Dev</option>
+                        <option value="">Pato Guerreiro</option>
+                        <option value="">Pato Man</option>
+                        <option value="">Pato Life</option>
+                        <option value="">Pato Pombo</option>
+                        <option value="">Pato Sauro</option>
+                        <option value="">Pato Mago</option>
+                        <option value="">Pato Rich</option>
+                    </select>
+                </div>
+
+                <div class="label-datalist">
+                    <h4>Selecione o mapa</h4>
+                    <input type="text" autocomplete="on" list="area" placeholder="Selecione aqui">
+                    <datalist id="area" >
+                        <option value="PatoBrizzier"></option>
+                        <option value="PatoWhite"></option>
+                        <option value="PatoCity"></option>
+                        <option value="PatoPark"></option>
+                        <option value="PatoBlack"></option>
+                    </datalist>
+                </div>
+            </form>
+        </div>
+    </body>
+</main>
+
+</html>
