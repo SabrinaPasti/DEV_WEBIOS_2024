@@ -1,0 +1,28 @@
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (main)
+$ git branch sabrina_sala 
+// Criando uma branch
+
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (main)
+$ git branch
+* main
+  sabrina_sala
+//Listando branches existentes
+
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (main)
+$ git checkout sabrina_sala
+Switched to branch 'sabrina_sala'
+// trocando branch
+
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (sabrina_sala)
+$ git commit -m 
+// comentando alterações
+
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (sabrina_sala)
+$ git push -u origin sabrina_sala
+//subindo o arquivo pro rep na nuvem
+
+
+Turma Noite@PC-IOS-3HY67Z2 MINGW64 ~/Documents/DEV_WEBIOS_2024 (sabrina_sala)
+$ git merge sabrina_sala2
+//mesclando arquivos atualizados para branch de origin
+
