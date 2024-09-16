@@ -1,0 +1,28 @@
+p{
+    font-size: 1.rem;
+    font-weight: 100;
+    background-color: #e697df;
+    box-shadow: 6px 6px #8f0083;
+    color: #8f0083;
+    line-height: 2rem;
+    font-family: "Rubik Mono One", monospace;
+    
+}
+
+body{
+    margin: 0 30%;
+    /* background-image: url('./pink-sky-white-soft-clouds-600nw-2449422627\ \(1\).webp');
+    background-repeat: no-repeat;
+    background-size: 100;
+    background-origin: padding-box; */
+}
+
+img{
+    width: 100%;
+}
+/* Medidas
+    Height: Altura
+    Width: Largura 
+    Font-size: Configura o tamanho de um texto.
+
+*/
