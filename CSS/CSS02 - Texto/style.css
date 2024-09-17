@@ -11,18 +11,33 @@ p{
 
 body{
     margin: 0 30%;
-    /* background-image: url('./pink-sky-white-soft-clouds-600nw-2449422627\ \(1\).webp');
+    background-image: url('img.gif');
     background-repeat: no-repeat;
-    background-size: 100;
-    background-origin: padding-box; */
+    background-size: 100%;
+
 }
 
 img{
     width: 100%;
+    box-shadow: 6px 6px #8f0083;
+
 }
-/* Medidas
+/* Medidas absolutas
+    cm, in, px
+    Trabalha com certeza
     Height: Altura
     Width: Largura 
     Font-size: Configura o tamanho de um texto.
+
+    Medidas Relativas
+    Trabalha com responsividade, abrange as possibilidades de visualização de seu website.
+    %, em, rem, vh, vw
+
+    Qual a diferença  entre em e rem?
+    Antes é necessário que saibamos sobre o elemento root/raiz: é o elemento <html> 
+    Dentro da tag html temos três tags filhas, sendo head, body e footer pois são tags criadas diretamente dentro da tag html. Hierarquia.
+
+    em: Sempre irá respeitar o tamanho definido no elemento pai mais próximo
+    rem: sempre irá responder ao tamanho configurado no elemento root
 
 */
