@@ -1,0 +1,71 @@
+*{
+    background-color: #eefaa8;
+    font-family: "Rajdhani", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+}
+
+/* Estilização do Cabeçalho */
+
+header{
+    background-color: #649ea7;
+    text-align: center;
+    border: solid 1px #000000;
+}
+
+header div h1{
+    width: 100%;
+    background-color: #649ea7;
+}
+
+/* Estilo da Tabela e Imagem*/
+
+caption{
+    font-size: 2rem;
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    
+}
+
+table {
+    border: solid 1px #000000;
+}
+
+table tr th{
+    border: solid 1px #000000;
+    width: 25%;
+    
+}
+
+table td{
+    border: solid 1px #000000;
+    width: 25%;
+}
+thead{
+    background-color: #8fbfb9;
+    font-weight: bold;
+}
+
+/* Estilo da Imagem*/
+
+figure img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+figcaption{
+    font-size: 1rem;
+    background-color: #ffc5f5;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+p{
+    text-align: center;
+}
