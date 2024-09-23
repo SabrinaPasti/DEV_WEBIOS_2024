@@ -1,0 +1,46 @@
+h1{
+    border: none;
+}
+
+h2{
+    border: 10px rgb(30, 102, 210) inset;
+}
+
+h3{
+    border: 10px pink outset;
+}
+
+h4{
+    border:10px purple double;
+}
+
+h5{
+    border: 10px brown groove;
+}
+
+h6{
+    border: 10px red ridge;
+}
+
+.p1{
+    border: 10px orange solid;
+}
+
+.p2{
+    border: 10px yellow dashed;
+}
+
+.p3{
+    border: 10px green dotted;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-image: url('/CSS/CSS\ 03-VIsuais/img3.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment: fixed; /* efeito paralax  */
+}

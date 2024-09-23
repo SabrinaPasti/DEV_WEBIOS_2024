@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+#p1{
+    color: rgb(255, 118, 141);
+}
+/* Usar # para chamar um id*/
+
+/* Usar um ponto . antes do nome do indificador para chamar uma classe*/
+
+.p1{
+    color: rgb(31, 31, 199);
+}
+
+.p2{
+    color: rgb(221, 107, 0);
+}
+
+.sec1{
+    background-color: rgb(187, 11, 11);
+}
+.sec2{
+    background-color: rgb(79, 7, 146);
+}
+
+.sec1 a{
+    font-size: 35px;
+    color: white;
+}
+
+.sec2 a{
+    color: rgb(172, 172, 172);
+    font-size: 54px;
+}
+
+h3{
+    color: white;
+    background-color: rgb(66, 109, 2);
+}
