@@ -1,0 +1,41 @@
+button{
+    background-color: pink;
+    border: 2px solid rgb(247, 70, 100);
+    border-radius: 10rem;
+    padding: 2rem 5rem;
+    font-size: 20px;
+    color: rgb(247, 70, 100);
+    margin-bottom: 5rem;
+}
+
+button:hover{
+    background-color: rgb(247, 70, 100);
+    color: pink;
+    transition: .8s;
+    
+}
+
+p{
+    font-size: 26px;
+}
+
+p:hover{
+    color: rgb(247, 70, 100);
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: rgb(194, 152, 233);
+}
+
+li:first-child{
+    border: 1px solid red;
+}
+
+li:last-child{
+    border: 1px green solid;
+}
+
+li:nth-child(3){
+    border: 1px purple solid;
+}

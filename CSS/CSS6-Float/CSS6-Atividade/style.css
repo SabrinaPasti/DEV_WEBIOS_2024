@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    font-size: 20px;
+    font-family: "Gowun Batang", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+div{
+    background-color: #D4EFDF;
+    padding: 2rem;
+}
+
+body{
+    margin: auto;
+    width: 90%;
+    background-color: white;
+    padding: 0;
+
+}
+
+header img{
+    width: 200px;
+}
+
+header a{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    letter-spacing: .2rem;
+}
+
+.section-first{
+    border: 1px solid #000;
+}
+
+.section-first figure{
+    border: 2px solid #000;
+    width: fit-content;
+    text-align: center;
+}
+
+.section-first img{
+    width: 500px;
+    padding: .5rem;
+}
+
+.section-scd{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.section-scd figure{
+    border: 2px solid #000;
+    text-align: center;
+    float: left;
+
+}
+
+.section-scd img{
+    width: 500px;
+    padding: .5rem;
+}
+
+.section-thd{
+    border: 1px solid #000;
+}
+
+.section-thd figure{
+    border: 2px solid #000;
+    width: fit-content;
+    text-align: center;
+    float: right;
+}
+
+.section-thd img{
+    width: 500px;
+    padding: .5rem;
+}
+
+
+.section-fourth{
+    border: 1px solid #000;
+}
+
+.section-fourth figure{
+    border: 2px solid #000;
+    width: fit-content;
+    text-align: center;
+    /* float: right; */
+}
+
+.section-fourth img{
+    width: 500px;
+    padding: .5rem;
+}
+
