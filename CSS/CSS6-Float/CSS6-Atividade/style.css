@@ -8,7 +8,12 @@
 
 div{
     background-color: #D4EFDF;
-    padding: 2rem;
+    padding: 1rem 2rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -89,7 +94,6 @@ header a{
     border: 2px solid #000;
     width: fit-content;
     text-align: center;
-    /* float: right; */
 }
 
 .section-fourth img{
@@ -97,3 +101,27 @@ header a{
     padding: .5rem;
 }
 
+.section-fourth figure:nth-child(1){
+    float: left;
+}
+
+.section-fourth figure:nth-child(2){
+    float: right;
+}
+
+.filmes{
+    margin: 0 2rem;
+}
+
+.filmes h2{
+    font-size: 30px;
+}
+
+.filmes ol{
+    margin-left: 1rem;
+}
+
+footer{
+    background-color: #D4EFDF;
+    padding-left: 3rem;
+}
