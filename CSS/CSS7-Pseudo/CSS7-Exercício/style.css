@@ -8,6 +8,32 @@
 body{
     background-color: #314a20;
 }
+
+body p::selection{
+    background-color: #345e17;
+    color: #fff;
+}
+
+body h1::selection{
+    background-color: #345e17;
+    color: #fff;
+}
+
+body h2::selection{
+    background-color: #345e17;
+    color: #fff;
+}
+
+body ul li::selection{
+    background-color: #345e17;
+    color: #fff; 
+}
+
+body ul li b::selection{
+    background-color: #345e17;
+    color: #fff; 
+}
+
 .container{
     padding: 8rem 2em;
     display: flex;
@@ -35,8 +61,10 @@ body{
 .container p{
     font-weight: 200;
     margin-bottom: 2rem;
-    max-width: 60%;
-    background-color: #3f5f29;
+}
+
+.container p::first-line{
+    background-color: #4f683f;
 }
 
 .container a{
@@ -73,7 +101,11 @@ body{
 }
 
 .container-3{
-    padding: 8rem 2em;
+    padding: 8rem 2em 2em 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .container-3 h2{
@@ -87,12 +119,13 @@ body{
 .noticias{
     display: flex;
     justify-content: space-evenly;
+    max-width: 1140px;
 
 }
 
 .card{
-    max-width: 350px;
-    padding: 2rem;
+    max-width: 250px;
+    padding: 1rem 1rem 2rem 1rem;
     background-color: #725436;
     border-radius: 2rem;
     border: 2px solid #533618;
@@ -102,8 +135,8 @@ body{
 }
 
 .card img{
-    width: 350px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     object-fit: cover;
     border-radius: .5rem;
 }
@@ -118,4 +151,27 @@ body{
 
 .card p{
     margin-bottom: 1.5rem;
+}
+
+.card p::first-letter{
+    font-size: 70px;
+    color: #533618;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.card a:hover{
+    background-color: #314a20;
+    transition: all .3s;
+}
+
+footer p::after{
+    content: " | Sabrina Pasti dos Santos";
+}
+
+footer{
+    padding: 2em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
 }
