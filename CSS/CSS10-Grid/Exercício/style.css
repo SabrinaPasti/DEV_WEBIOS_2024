@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 50px) ;
+    grid-template-rows: repeat(6, 25px);
+    grid-template-areas: 
+    "item-1 item-1 item-2 item-2" 
+    "item-3 item-3 item-3 item-3"
+    "item-4 item-4 item-4 item-4"
+    ". item-5 item-5 ."
+    "item-6 item-6 item-6 item-6"
+    "item-7 item-7 item-8 item-9"
+}
+
+
+.item-1{
+    grid-area: item-1;
+    background-color: green;
+}
+
+.item-2{
+    grid-area: item-2;
+    background-color: yellowgreen;
+}
+
+.item-3{
+    grid-area: item-3;
+    background-color: yellow;
+}
+
+.item-4{
+    grid-area: item-4;
+    background-color: orange;
+}
+
+.item-5{
+    grid-area: item-5;
+    background-color: orangered;
+}
+
+.item-6{
+    grid-area: item-6;
+    background-color: red;
+}
+
+.item-7{
+    grid-area: item-7;
+    background-color: brown;
+}
+
+.item-8{
+    grid-area: item-8;
+    background-color: purple;
+}
+
+.item-9{
+    grid-area: item-9;
+    background-color: pink;
+}
