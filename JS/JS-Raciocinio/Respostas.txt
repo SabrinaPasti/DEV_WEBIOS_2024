@@ -1,0 +1,15 @@
+Probabilidade
+Alternativa: 
+
+Sequência
+Alternativa: R1:61,  ele soma  R2: 3.240, ele multiplica
+
+Raciocínio
+Alternativa: A) Lego
+
+Equivalência
+Alternativa: E) Nenhum Brasileiro Gosta de Futebol
+
+Análise Combinatória:
+Alternativa: 24 maneiras
+
