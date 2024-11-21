@@ -7,6 +7,10 @@ let estado = document.getElementById('campoEstado');
 
 
 async function BuscaCep(){
+    // Pegando elemento no html e passando o valor que o usuário deseja
+    let campoUsuario = document.getElementById("campoUsuario").value
+    let URL = `https://viacep.com.br/ws/${campoUsuario}/json/`
+
     let resp = await fetch(URL).then((response) => {
         // Transformar json em obj
 
